@@ -392,7 +392,12 @@ color: var(--title-light-words-color);
 /*Стили для страницы портфоли "Portfolio.html"*/
 /*Кнопки*/
 .btn-list {
+  width: 611px;
+  height: 54px;
   display: flex;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 34px;
   justify-content: center;
 }
 
@@ -421,6 +426,7 @@ color: var(--title-dark-words-color);
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 94px;
 }
 .list-portfolio > li {
   width: 370px;
@@ -443,6 +449,11 @@ color: var(--title-dark-words-color);
 
 
 .title-portfolio {
+width: 322px;
+height: 36px;
+margin-bottom: 4px;
+margin-left: 24px;
+
 text-decoration: none;
 font-weight: 700;
 font-size: 18px;
@@ -451,7 +462,16 @@ letter-spacing: 0.06em;
 color: var(--title-dark-words-color);
 }
 
+.link-portfolio > img {
+  margin-bottom: 20px;
+}
+
 .text-portfolio {
+  width: 322px;
+  height: 30px;
+  margin: 0px;
+  margin-left: 24px;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
