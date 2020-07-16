@@ -117,12 +117,12 @@ color: var(--title-gray-words-color);
 /*временное свойство для лучшего восприятия белого текста*/
 .hero-section {
   background-color: #2F303A;
-  width: 1311px;
-  height: 600px;
+
   }
 
   .hero-wrapper {
     padding-top: 200px;
+    padding-bottom: 280px;
   }
 
 .hero-title {
@@ -238,8 +238,6 @@ background-color: rgba(47, 48, 58, 0.8);
 
 /* Команда*/
 .team-wrapper {
-width: 1311px;
-height: 702px;
 background-color: #F5F4FA;;
 }
 
