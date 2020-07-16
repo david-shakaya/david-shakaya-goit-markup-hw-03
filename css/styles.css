@@ -422,19 +422,25 @@ color: var(--title-dark-words-color);
  background-color: var(--accent-color);
 }
 
-/*Портфолио*/
+/*Портфолио ГАЛЕРЕЯ*/
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 94px;
 }
 .list-portfolio > li {
-  width: 370px;
+width: calc((100% - 60px) /3);
+height: 404px;
+margin-right: 30px;
+margin-bottom: 30px;
+}
+
+/*  width: 370px;
   height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
-
+*/
 .list-portfolio > li:nth-child(3n) {
   margin-right: 0px;
 }
@@ -446,7 +452,6 @@ color: var(--title-dark-words-color);
 .link-portfolio{
   text-decoration: none;
 }
-
 
 .title-portfolio {
 width: 322px;
