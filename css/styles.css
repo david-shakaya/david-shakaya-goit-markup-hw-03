@@ -126,6 +126,12 @@ color: var(--title-gray-words-color);
   }
 
 .hero-title {
+width: 696px;
+height: 120px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+
  font-weight: 900;
  font-size: 44px;
  line-height: 1.36;
