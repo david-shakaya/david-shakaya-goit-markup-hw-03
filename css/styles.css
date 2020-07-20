@@ -95,6 +95,7 @@ color: #000000;
 .header-wrapper {
   display: flex;
   justify-content: space-between;
+  height: 81px;
   
 }
 .header-adress {
@@ -144,6 +145,8 @@ margin-bottom: 30px;
 
 .btn-hero {
   display: block;
+  width: 200px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
 
@@ -395,6 +398,10 @@ color: var(--title-light-words-color);
 
 /*Стили для страницы портфоли "Portfolio.html"*/
 /*Кнопки*/
+.btn-wrapper {
+  padding-top: 93px;
+}
+
 .btn-list {
   width: 611px;
   height: 54px;
